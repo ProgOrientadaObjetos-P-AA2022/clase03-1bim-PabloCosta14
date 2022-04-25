@@ -35,7 +35,8 @@ public class Ejecutor {
         h1.establecerNombre(e1);
         h1.establecerNumeroCamas(e2);
         h1.establecerPresupuesto(e3);
-        entrada.nextLine();
+        
+        entrada.nextLine(); //Limpieza de buffer
 
         System.out.println("Escriba el nombre del hospital(2)");
         String e4 = entrada.nextLine();
@@ -52,11 +53,13 @@ public class Ejecutor {
         System.out.printf("%s \n", "Hola desde el main");
         System.out.println("---------------------------------------");
 
-        System.out.printf("Nombre del primer hospital: %s --- Numero de camas: %d --- "
+        System.out.printf("Nombre del primer hospital: %s --- Numero de camas: "
+                + "%d --- "
                 + "Presupuesto: %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
         System.out.println("-----------------------------------------------");
-        System.out.printf("Nombre del segundo hospital: %s --- Numero de camas: %d --- "
+        System.out.printf("Nombre del segundo hospital: %s --- Numero de camas: "
+                + "%d --- "
                 + "Presupuesto: %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
 
