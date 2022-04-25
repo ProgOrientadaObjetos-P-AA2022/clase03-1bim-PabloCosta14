@@ -3,11 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manejoclases02;
+package manejoclases01;
 
-public class Hospital {
-
-    private String nombre;
-    private int numeroCamas;
-    private double presupuesto;
+/**
+ *
+ * @author PabloCosta14
+ */
+public class H4 {
+    String nombre;
+    int numeroPacientes;
+    double presupuesto;
+    
 }
